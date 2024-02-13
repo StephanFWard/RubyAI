@@ -1,26 +1,35 @@
-# README
+AI Invention Search
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Description:
+This application allows users to search for invention data using the USPTO (United States Patent and Trademark Office) API. Users can input search queries, and the application retrieves relevant invention data from the USPTO database.
 
-Things you may want to cover:
+Installation:
+1. Clone this repository to your local machine:
+   git clone https://github.com/StephanFWard/RubyAI.git
 
-* Ruby version
+2. Navigate to the project directory:
+   cd ai_invention_search
 
-* System dependencies
+3. Install dependencies:
+   bundle install
 
-* Configuration
+Usage:
+1. Start the Rails server:
+   rails server
 
-* Database creation
+2. Open a web browser and navigate to http://localhost:3000
 
-* Database initialization
+3. Enter search queries in the provided input field and click the "Search" button to retrieve invention data.
 
-* How to run the test suite
+Deployment:
+This application can be deployed to a web server using a service like Heroku. Follow Heroku's deployment instructions to deploy the application.
 
-* Services (job queues, cache servers, search engines, etc.)
+Contributing:
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make changes and commit them to your branch.
+4. Push your changes to your fork.
+5. Submit a pull request to the main repository.
 
-* Deployment instructions
-
-* ...
-# RubyAI
- 
+License:
+This project is licensed under the MIT License. See the LICENSE file for details.
