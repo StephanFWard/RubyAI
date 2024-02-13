@@ -1,0 +1,12 @@
+<h1>Search for Invention Data</h1>
+
+<form id="search-form" action="<%= search_path %>" method="post">
+  <input type="text" id="query" name="query" placeholder="Enter search query">
+  <button type="submit">Search</button>
+</form>
+
+<div id="search-results">
+  <!-- Display search results here -->
+</div>
+
+<%= link_to 'Search and Save', '#', id: 'search-and-save-link', method: :post, remote: true %>

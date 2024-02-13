@@ -1,0 +1,2 @@
+class InventionData < ApplicationRecord
+end
